@@ -4,9 +4,8 @@
 
 *1 Computational Evolutionary Genomics Lab, Department of Biological Sciences, IISER Bhopal, Bhauri, Madhya Pradesh, India *Correspondence: nagarjun@iiserb.ac.in*
 
-
-    Bwa 0.7.17-r1188
-    Samtools 1.9
+# Bwa 0.7.17-r1188
+# Samtools 1.9
     SNPhylo 20180901
     Freebayes v1.0.0
     Figtree 1.4.2

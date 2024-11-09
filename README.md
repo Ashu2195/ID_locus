@@ -1,4 +1,4 @@
-# Common Ancestry of the Id Locus: Genetic Clues and Polygenic Possibilities
+# Common Ancestry of the Id Locus: Chromosomal Rearrangement and Polygenic Possibilities
 
 *Ashutosh Sharma 1, Nagarjun Vijay 1*
 

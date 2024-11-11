@@ -1,0 +1,165 @@
+
+angsd -GL 2 -out genolike_ID_R2 -nThreads 32 -minMapQ 30 -minQ 20 -doGlf 2 -doMajorMinor 1 -SNP_pval 1e-6 -doMaf 1 -bam bam.list -r Z:81040000-82226500
+
+
+
+for j in {1..10}
+do
+for i in {1..15}
+do 
+echo NGSadmix -likes genolike_ID_R2.beagle.gz -minMaf 0.05 -K $i -P 32 -o ID_R2_"$i"_"$j" -minInd 190
+done
+done
+
+
+
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_1 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_2 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_3 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_4 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_5 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_6 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_7 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_8 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_9 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 1 -P 32 -o ID_R2_1_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 2 -P 32 -o ID_R2_2_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 3 -P 32 -o ID_R2_3_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 4 -P 32 -o ID_R2_4_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 5 -P 32 -o ID_R2_5_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 6 -P 32 -o ID_R2_6_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 7 -P 32 -o ID_R2_7_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 8 -P 32 -o ID_R2_8_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 9 -P 32 -o ID_R2_9_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 10 -P 32 -o ID_R2_10_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 11 -P 32 -o ID_R2_11_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 12 -P 32 -o ID_R2_12_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 13 -P 32 -o ID_R2_13_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 14 -P 32 -o ID_R2_14_10 -minInd 190
+NGSadmix -likes genolike_R2.beagle.gz -minMaf 0.05 -K 15 -P 32 -o ID_R2_15_10 -minInd 190

@@ -1,0 +1,4 @@
+#file	name	tags
+GRCg7b_chrZ.fa	GRCg7b	lw:5;lc:green
+GRCg6a_chrZ.fa	GRCg6a	lw:5;lc:red
+Huxu_chrZ.fa	Huxu	lw:5;lc:black

@@ -1,0 +1,55 @@
+[M::mm_idx_gen::3.675*1.00] collected minimizers
+[M::mm_idx_gen::4.553*1.09] sorted minimizers
+[M::main::4.553*1.09] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::4.732*1.09] mid_occ = 103
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::4.862*1.08] distinct minimizers: 7211759 (97.72% are singletons); average occurrences: 1.143; average spacing: 10.016
+[M::worker_pipeline::520.485*1.00] mapped 1 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -ax asm5 -t 32 --eqx GRCg6a_chrZ.fa GRCg7b_chrZ.fa
+[M::main] Real time: 520.599 sec; CPU: 519.453 sec; Peak RSS: 2.588 GB
+[E::hts_open_format] Failed to open file "GRC_CAU_corrected_Fm.bam" : No such file or directory
+samtools index: failed to open "GRC_CAU_corrected_Fm.bam": No such file or directory
+[M::mm_idx_gen::3.722*1.00] collected minimizers
+[M::mm_idx_gen::4.891*1.05] sorted minimizers
+[M::main::4.891*1.05] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::5.073*1.04] mid_occ = 103
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::5.205*1.04] distinct minimizers: 7211759 (97.72% are singletons); average occurrences: 1.143; average spacing: 10.016
+[M::worker_pipeline::769.446*0.97] mapped 1 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -ax asm5 -t 32 --eqx GRCg6a_chrZ.fa Huxu_chrZ.fa
+[M::main] Real time: 769.579 sec; CPU: 743.333 sec; Peak RSS: 2.827 GB
+[M::mm_idx_gen::3.058*1.00] collected minimizers
+[M::mm_idx_gen::3.447*1.34] sorted minimizers
+[M::main::3.447*1.34] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::3.640*1.33] mid_occ = 141
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::3.768*1.31] distinct minimizers: 7254570 (97.50% are singletons); average occurrences: 1.181; average spacing: 10.040
+[M::worker_pipeline::741.120*1.00] mapped 1 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -ax asm5 -t 32 --eqx GRCg7b_chrZ.fa Huxu_chrZ.fa
+[M::main] Real time: 741.259 sec; CPU: 740.916 sec; Peak RSS: 3.243 GB
+/home/morpheus/.local/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/home/morpheus/.local/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/home/morpheus/.local/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+[E::idx_find_and_load] Could not retrieve index file for 'GRCg6a_GRCg7b_chrZ.bam'
+Reading Coords - WARNING - Chromosomes IDs do not match.
+Reading Coords - WARNING - Matching them automatically. For each reference genome, most similar query genome will be selected. Check mapids.txt for mapping used.
+Reading Coords - WARNING - Chromosomes IDs do not match.
+Reading Coords - WARNING - Matching them automatically. For each reference genome, most similar query genome will be selected. Check mapids.txt for mapping used.
+parsesnps - WARNING - /media/morpheus/sagar/kadak_part2/Id_comparision/GRCg6a_GRCg7b_chrZsnps.txt cannot be opened. Cannot output SNPs and short indels.
+local_variation - WARNING - Finished syri
+ctxOut.txt is empty. Skipping analysing it.
+ctxOut.txt is empty. Skipping analysing it.
+parsesnps - WARNING - /media/morpheus/sagar/kadak_part2/Id_comparision/GRCg7b_Huxu_chrZsnps.txt cannot be opened. Cannot output SNPs and short indels.
+local_variation - WARNING - Finished syri
+ctxOut.txt is empty. Skipping analysing it.
+ctxOut.txt is empty. Skipping analysing it.
+parsesnps - WARNING - /media/morpheus/sagar/kadak_part2/Id_comparision/GRCg6a_Huxu_chrZsnps.txt cannot be opened. Cannot output SNPs and short indels.
+local_variation - WARNING - Finished syri
+ctxOut.txt is empty. Skipping analysing it.
+ctxOut.txt is empty. Skipping analysing it.

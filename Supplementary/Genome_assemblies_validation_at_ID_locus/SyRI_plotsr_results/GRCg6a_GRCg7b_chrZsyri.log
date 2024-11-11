@@ -1,0 +1,19 @@
+2024-06-12 11:56:02,307 - Reading Coords - INFO - syri:135 - Reading input from BAM file
+2024-06-12 11:57:12,008 - syri - INFO - syri:214 - starting
+2024-06-12 11:57:12,012 - syri - INFO - syri:214 - Analysing chromosomes: ['Z']
+2024-06-12 11:57:12,378 - syri.Z - INFO - mapstar:48 - Z (1432, 11)
+2024-06-12 11:57:12,378 - syri.Z - INFO - mapstar:48 - Identifying Synteny for chromosome Z
+2024-06-12 11:57:18,847 - syri.Z - INFO - mapstar:48 - Identifying Inversions for chromosome Z
+2024-06-12 11:57:42,504 - syri.Z - INFO - mapstar:48 - Identifying translocation and duplication for chromosome Z
+2024-06-12 12:04:10,465 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 9.775161743164062e-06. iterations remaining 45
+2024-06-12 12:04:10,580 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 7.724761962890625e-05. iterations remaining 44
+2024-06-12 12:04:16,792 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2024-06-12 12:04:16.792718
+2024-06-12 12:04:17,798 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2024-06-12 12:04:21,162 - local_variation - INFO - syri:245 - Finding SNPs and small indels
+2024-06-12 12:04:21,163 - local_variation - INFO - syri:257 - Combining outputs
+2024-06-12 12:04:21,164 - local_variation - INFO - syri:262 - Generating table output
+2024-06-12 12:04:22,680 - parsesnps - WARNING - syri:266 - /media/morpheus/sagar/kadak_part2/Id_comparision/GRCg6a_GRCg7b_chrZsnps.txt cannot be opened. Cannot output SNPs and short indels.
+2024-06-12 12:04:27,584 - local_variation - INFO - syri:267 - Generating VCF
+2024-06-12 12:04:27,668 - local_variation - WARNING - syri:275 - Finished syri

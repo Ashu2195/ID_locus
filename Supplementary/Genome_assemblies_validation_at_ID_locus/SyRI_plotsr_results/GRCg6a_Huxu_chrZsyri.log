@@ -1,0 +1,24 @@
+2024-06-12 11:56:01,686 - Reading Coords - INFO - syri:135 - Reading input from BAM file
+2024-06-12 11:57:20,243 - Reading Coords - WARNING - syri:135 - Chromosomes IDs do not match.
+2024-06-12 11:57:20,261 - Reading Coords - WARNING - syri:135 - Matching them automatically. For each reference genome, most similar query genome will be selected. Check mapids.txt for mapping used.
+2024-06-12 11:57:20,401 - Reading Coords - INFO - syri:135 - setting CP100594.1 as Z
+2024-06-12 11:57:25,054 - syri - INFO - syri:214 - starting
+2024-06-12 11:57:25,057 - syri - INFO - syri:214 - Analysing chromosomes: ['Z']
+2024-06-12 11:57:25,459 - syri.Z - INFO - mapstar:48 - Z (1881, 11)
+2024-06-12 11:57:25,460 - syri.Z - INFO - mapstar:48 - Identifying Synteny for chromosome Z
+2024-06-12 11:57:34,119 - syri.Z - INFO - mapstar:48 - Identifying Inversions for chromosome Z
+2024-06-12 11:57:47,550 - syri.Z - INFO - mapstar:48 - Identifying translocation and duplication for chromosome Z
+2024-06-12 11:58:04,407 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 1.1205673217773438e-05. iterations remaining 44
+2024-06-12 12:10:06,629 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 0.0004837512969970703. iterations remaining 29
+2024-06-12 12:11:23,894 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 4.291534423828125e-05. iterations remaining 39
+2024-06-12 12:11:59,457 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2024-06-12 12:11:59.457271
+2024-06-12 12:12:00,426 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2024-06-12 12:12:04,759 - local_variation - INFO - syri:245 - Finding SNPs and small indels
+2024-06-12 12:12:04,760 - local_variation - INFO - syri:257 - Combining outputs
+2024-06-12 12:12:04,761 - local_variation - INFO - syri:262 - Generating table output
+2024-06-12 12:12:06,677 - parsesnps - WARNING - syri:266 - /media/morpheus/sagar/kadak_part2/Id_comparision/GRCg6a_Huxu_chrZsnps.txt cannot be opened. Cannot output SNPs and short indels.
+2024-06-12 12:12:13,192 - local_variation - INFO - syri:267 - Generating VCF
+2024-06-12 12:12:13,276 - local_variation - WARNING - syri:275 - Finished syri
